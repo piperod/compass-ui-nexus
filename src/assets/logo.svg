@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Compass icon — circular USB-style compass mark</title>
+
+  <!-- SETTINGS -->
+  <defs>
+    <style>
+      .brand { color:#A100FF; } /* Accenture purple */
+    </style>
+  </defs>
+
+  <!-- OUTER CIRCLE RING -->
+  <circle cx="256" cy="256" r="216" fill="none" stroke="currentColor" stroke-width="28" class="brand"></circle>
+
+  <!-- STEM + BRANCHES (rounded pipes) -->
+  <g fill="none" stroke="currentColor" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" class="brand">
+    <!-- vertical stem (from bottom node center up to just under triangle) -->
+    <path d="M256 336 L256 190"></path>
+
+    <!-- bottom branch: from stem to bottom circle center -->
+    <path d="M256 336 L256 372"></path>
+
+    <!-- left branch to circle -->
+    <path d="M256 268 C256 268 225 266 204 262 C188 259 176 260 160 268"></path>
+
+    <!-- right branch to rounded square -->
+    <path d="M256 240 C308 240 330 248 348 264 C360 275 364 288 364 304"></path>
+  </g>
+
+  <!-- NODES -->
+  <!-- bottom circle -->
+  <circle cx="256" cy="400" r="38" fill="currentColor" class="brand"></circle>
+  <!-- left circle -->
+  <circle cx="152" cy="280" r="44" fill="currentColor" class="brand"></circle>
+  <!-- right rounded square (plug) -->
+  <rect x="320" y="304" width="80" height="80" rx="16" ry="16" fill="currentColor" class="brand"></rect>
+
+  <!-- TOP TRIANGLE (arrow/compass pointer) -->
+  <path d="M256 100 L316 196 L196 196 Z" fill="currentColor" class="brand"></path>
+</svg>
